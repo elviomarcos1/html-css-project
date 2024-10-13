@@ -18,6 +18,7 @@
 
 .nav-bar{
     display: flex;
+    margin: 0;
 }
 
 .nav-bar-a{
@@ -61,4 +62,42 @@
     width: 5px;
     height: 5px;
     background: #00b4d8;
+}
+
+.banner-main{
+    display: flex;
+}
+
+.banner-left{
+    display: inline-flex;
+    width: 60%;
+    height: 600px;
+    background-image: url(/assets/img/baixados\ \(1\).jpeg);
+    border: solid #000;
+}
+
+.title{
+    background-color: #0096c7;
+    height: 200px;
+    width: 450px;
+    margin: 60px auto;
+    box-shadow: #000 5px 5px;}
+
+.title h1{
+    display: flex;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: #000 2px 2px;
+}
+
+.title p{
+    display: flex;
+}
+
+.banner-right{
+    display: inline-flex;
+    width: 40%;
+    height: 600px;
+    background-image: url(/assets/img/Pixel\ Art\ Mountainscape\ 1.jpeg);
+    border: solid #000;
 }
