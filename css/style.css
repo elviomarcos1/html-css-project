@@ -4,7 +4,6 @@
 
 .banner .banner-left, .banner-right{
     display: flex;
-    width: 60%;
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,18 +11,21 @@
 }
 
 .banner-left{
-    background-image: url(/assets/img/banner-left.jpeg);
+    width: 80%;
+    background-image: url(/assets/img/banner-left.webp);
 }
 
 .banner-right{
+    width: 20%;
+    background-position: center;
     background-image: url(/assets/img/banner-right.jpeg);
 }
 
 .title{
     display: inline-block;
     height: 200px;
-    width: 70%;
-    margin-top: 60px;
+    width: 60%;
+    margin-top: 80px;
     margin-left: 60px;
     text-align: center;
     font-family: "Press Start 2P", system-ui;
